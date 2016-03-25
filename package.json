@@ -1,0 +1,10 @@
+{
+  "name": "SnippetsExtractor",
+  "version": "0.0.0",
+  "description": "SnippetsExtractor",
+  "main": "app.js",
+  "author": {
+    "name": "cankov",
+    "email": ""
+  }
+}
