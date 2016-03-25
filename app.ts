@@ -139,7 +139,6 @@ class JavaScriptSnippets implements SnippetFinder {
                 // We got a tag with unknown attributes!
                 if (attrName != "module" && attrName != "title") {
                     throw new Error("Invalid snippet attribute '" + attrName + "'!");
-                    return null;
                 }
                 restOfLine = restOfLine.substring(restOfLine.indexOf(nextAttribute[0]) + nextAttribute[0].length);
 
@@ -485,10 +484,10 @@ class TocBuilder {
 
 try {
 
-    var arguments = process.argv.slice(2);
+    var rawargs = process.argv.slice(2);
 
     var args = new CommandLineArgsParser({
-        args: arguments,
+        args: rawargs,
         flags: {
             "-help": false,
             "-noclean": false

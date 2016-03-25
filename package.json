@@ -1,10 +1,13 @@
 {
   "name": "SnippetsExtractor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "SnippetsExtractor",
   "main": "app.js",
   "author": {
     "name": "cankov",
     "email": ""
+  },
+  "devDependencies": {
+    "typescript": "1.8.9"
   }
 }
