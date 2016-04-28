@@ -1,5 +1,5 @@
 {
-  "name": "SnippetsExtractor",
+  "name": "docs-howto-extractor",
   "version": "0.0.1",
   "description": "SnippetsExtractor",
   "main": "app.js",
